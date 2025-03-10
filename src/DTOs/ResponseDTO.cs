@@ -5,7 +5,7 @@ using System;
 using System.Reflection;
 using System.Security.Claims;
 
-namespace Danorjuela.Utils.ResponseProcessor.DTO
+namespace Danorjuela.Utils.ResponseProcessor.DTOs
 {
     public class ResponseDTO<T>
     {

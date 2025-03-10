@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Danorjuela.Utils.ResponseProcessor", "Danorjuela.Utils.ResponseProcessor\Danorjuela.Utils.ResponseProcessor.csproj", "{C6B38A08-6551-40AE-A34F-4B73B75B24BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Danorjuela.Utils.ResponseProcessor", "src\Danorjuela.Utils.ResponseProcessor.csproj", "{AFB532C5-6F0F-4452-ABB6-4F7A7F6B400B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C6B38A08-6551-40AE-A34F-4B73B75B24BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6B38A08-6551-40AE-A34F-4B73B75B24BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6B38A08-6551-40AE-A34F-4B73B75B24BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6B38A08-6551-40AE-A34F-4B73B75B24BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB532C5-6F0F-4452-ABB6-4F7A7F6B400B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB532C5-6F0F-4452-ABB6-4F7A7F6B400B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB532C5-6F0F-4452-ABB6-4F7A7F6B400B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB532C5-6F0F-4452-ABB6-4F7A7F6B400B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {71EBA6CE-E74F-494A-A113-E1BD1F2934C6}
+		SolutionGuid = {B42A9FF9-1C2D-4C6F-897E-5A343CF369C2}
 	EndGlobalSection
 EndGlobal
