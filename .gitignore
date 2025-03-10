@@ -398,3 +398,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Mac Files
+.DS_Store
+**/.DS_Store
+Danorjuela.Utils.ResponseProcessor/.DS_Store
+**/.DS_Store
