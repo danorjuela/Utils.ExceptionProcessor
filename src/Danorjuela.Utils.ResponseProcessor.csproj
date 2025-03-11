@@ -8,7 +8,7 @@
 
   <PropertyGroup>
     <PackageId>Danorjuela.Utils.ResponseProcessor</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Dan Orjuela</Authors>
     <Description>Servicio recubridor para manejo de respuestas</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
