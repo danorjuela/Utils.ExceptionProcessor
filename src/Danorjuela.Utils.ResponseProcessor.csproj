@@ -14,6 +14,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/danorjuela/Utils.ResponseProcessor</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>Assets/icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
 
   <ItemGroup>
     <None Include="../README.md" Pack="true" PackagePath="README.md" />
+    <None Include="assets/icon.png" Pack="true" PackagePath="icon.png" />
   </ItemGroup>
   
 </Project>
