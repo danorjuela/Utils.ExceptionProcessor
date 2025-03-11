@@ -12,5 +12,7 @@ namespace Danorjuela.Utils.ResponseProcessor.Interface
     {
         IActionResult ProcessException(Exception ex);
         IActionResult ProcessException(Exception ex, int? code = null);
+        IActionResult ProcessResponse<T>(T data, int? code = 200);
+
     }
 }

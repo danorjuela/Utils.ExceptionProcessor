@@ -14,7 +14,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/danorjuela/Utils.ResponseProcessor</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageIcon>Assets/icon.png</PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>

@@ -20,8 +20,8 @@ namespace Danorjuela.Utils.ResponseProcessor.Services
                 case INotFoundException:
                     return GenerateReponse(ex, StatusCodes.Status404NotFound, g);
                 case InvalidOperationException:
-                    return GenerateReponse(ex, StatusCodes.Status400BadRequest,g);
-                case  INoDataException: 
+                    return GenerateReponse(ex, StatusCodes.Status400BadRequest, g);
+                case INoDataException:
                     return GenerateReponse(ex, StatusCodes.Status204NoContent, g);
                 case INotAutorizationException:
                     return GenerateReponse(ex, StatusCodes.Status401Unauthorized, g);
@@ -58,10 +58,10 @@ namespace Danorjuela.Utils.ResponseProcessor.Services
             }
             else
             {
-                return new ObjectResult(new ResponseDTO() { Message = ex.Message, IsSuccess = false, Guid= guid })
+                return new ObjectResult(new ResponseDTO() { Message = ex.Message, IsSuccess = false, Guid = guid })
                 {
                     StatusCode = statusCode
-                    
+
                 };
             }
         }
@@ -77,5 +77,15 @@ namespace Danorjuela.Utils.ResponseProcessor.Services
                 return ProcessException(ex);
             }
         }
+
+        public IActionResult ProcessResponse<T>(T data, int? code = 200)
+        {
+            var guid = Guid.NewGuid().ToString();
+            return new ObjectResult(new ResponseDTO<T>() { Message = "", Data = data, Guid = guid })
+            {
+                StatusCode = code
+            };
+        }
+
     }
 }
